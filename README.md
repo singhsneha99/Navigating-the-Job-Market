@@ -27,6 +27,20 @@ Numeracy Skills: Assess the influence of numeracy skills on job finding expectat
 
 Regional Variances: Examine regional differences in job finding expectations, highlighting any geographic patterns that may emerge.
 
-## Methodology:
-The project will involve statistical analysis, including mean calculations and graphical representations, to visualize trends and patterns in job finding expectations across different demographic categories. Inferential statistics may also be employed to identify significant associations.
+## Analysis Approach:
+The Jupyter notebook implements the analysis in Python using pandas, matplotlib, seaborn, scikit-learn and other libraries. Key techniques include:
+Data inspection, cleaning, preprocessing
+Summary statistics and correlation analysis
+Visualizations - heatmaps, pairplots, boxplots, time series plots
+Regression modeling to predict job finding probabilities
 
+## Key Findings
+Some observations from the analysis include:
+Job finding expectations tend to be higher for younger individuals
+Higher educational attainment correlates with greater employment optimism
+High income brackets report higher perceived job finding odds
+Numeracy skills are positively associated with job finding outlook
+Geographic variations exist in employment expectations
+
+## References
+The SCE data is provided by the Federal Reserve Bank of New York under license terms available on their website. This analysis makes no claims on the accuracy of job-finding expectations reported in the SCE survey.
